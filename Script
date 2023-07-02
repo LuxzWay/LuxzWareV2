@@ -1,0 +1,423 @@
+
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local SideFrame = Instance.new("Frame")
+local ScriptHubButton = Instance.new("TextButton")
+local UpdateLogButton = Instance.new("TextButton")
+local InfoButton = Instance.new("TextButton")
+local DloButton = Instance.new("TextButton")
+local TopFrame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local ScriptFrame = Instance.new("Frame")
+local DaHoodButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local PhantomForcesButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local SpeedCityButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local ArsenalButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local ComingSoon2Button = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local ComingSoon1Button = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UpdateLogFrame = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextLabel_4 = Instance.new("TextLabel")
+local InfoFrame = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.Active = true
+MainFrame.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
+MainFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.Position = UDim2.new(0.30871886, 0, 0.25836432, 0)
+MainFrame.Size = UDim2.new(0, 430, 0, 260)
+MainFrame.Active = true
+MainFrame.Draggable = true
+
+SideFrame.Name = "SideFrame"
+SideFrame.Parent = MainFrame
+SideFrame.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+SideFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+SideFrame.Position = UDim2.new(0, 0, 0.192307696, 0)
+SideFrame.Size = UDim2.new(0, 70, 0, 210)
+
+ScriptHubButton.Name = "ScriptHubButton"
+ScriptHubButton.Parent = SideFrame
+ScriptHubButton.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+ScriptHubButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ScriptHubButton.Position = UDim2.new(0, 0, 0.0476190485, 0)
+ScriptHubButton.Size = UDim2.new(0, 70, 0, 50)
+ScriptHubButton.Font = Enum.Font.Kalam
+ScriptHubButton.Text = "ScriptHub"
+ScriptHubButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScriptHubButton.TextScaled = true
+ScriptHubButton.TextSize = 14.000
+ScriptHubButton.TextWrapped = true
+
+UpdateLogButton.Name = "UpdateLogButton"
+UpdateLogButton.Parent = SideFrame
+UpdateLogButton.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+UpdateLogButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+UpdateLogButton.Position = UDim2.new(0, 0, 0.285714298, 0)
+UpdateLogButton.Size = UDim2.new(0, 70, 0, 50)
+UpdateLogButton.Font = Enum.Font.Kalam
+UpdateLogButton.Text = "UpdateLog"
+UpdateLogButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+UpdateLogButton.TextScaled = true
+UpdateLogButton.TextSize = 14.000
+UpdateLogButton.TextWrapped = true
+
+InfoButton.Name = "InfoButton"
+InfoButton.Parent = SideFrame
+InfoButton.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+InfoButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+InfoButton.Position = UDim2.new(0, 0, 0.523809552, 0)
+InfoButton.Size = UDim2.new(0, 70, 0, 50)
+InfoButton.Font = Enum.Font.Kalam
+InfoButton.Text = "Info"
+InfoButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfoButton.TextSize = 26.000
+InfoButton.TextWrapped = true
+
+DloButton.Name = "DloButton"
+DloButton.Parent = SideFrame
+DloButton.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+DloButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+DloButton.Position = UDim2.new(0, 0, 0.761904776, 0)
+DloButton.Size = UDim2.new(0, 70, 0, 50)
+DloButton.Font = Enum.Font.Kalam
+DloButton.Text = "dlo"
+DloButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+DloButton.TextSize = 26.000
+DloButton.TextWrapped = true
+
+TopFrame.Name = "TopFrame"
+TopFrame.Parent = MainFrame
+TopFrame.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+TopFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TopFrame.Size = UDim2.new(0, 430, 0, 60)
+
+TextLabel.Parent = TopFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.837209284, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 70, 0, 60)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "v 1.0.0"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = TopFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+TextLabel_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Size = UDim2.new(0, 360, 0, 60)
+TextLabel_2.Font = Enum.Font.Kalam
+TextLabel_2.Text = "LuxzWare"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 46.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = TextLabel_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Size = UDim2.new(0, 52, 0, 60)
+TextLabel_3.Font = Enum.Font.Kalam
+TextLabel_3.Text = "Made By BoyJr#7160"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 46.000
+TextLabel_3.TextWrapped = true
+
+ScriptFrame.Name = "ScriptFrame"
+ScriptFrame.Parent = MainFrame
+ScriptFrame.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
+ScriptFrame.BackgroundTransparency = 1.000
+ScriptFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ScriptFrame.BorderSizePixel = 0
+ScriptFrame.Position = UDim2.new(0.162790701, 0, 0.230769232, 0)
+ScriptFrame.Size = UDim2.new(0, 360, 0, 200)
+ScriptFrame.Visible = false
+
+DaHoodButton.Name = "DaHoodButton"
+DaHoodButton.Parent = ScriptFrame
+DaHoodButton.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
+DaHoodButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DaHoodButton.BorderSizePixel = 0
+DaHoodButton.Position = UDim2.new(0.0833333135, 0, 0.049999997, 0)
+DaHoodButton.Size = UDim2.new(0, 120, 0, 50)
+DaHoodButton.Font = Enum.Font.Kalam
+DaHoodButton.Text = "Da Hood"
+DaHoodButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+DaHoodButton.TextScaled = true
+DaHoodButton.TextSize = 14.000
+DaHoodButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+DaHoodButton.TextStrokeTransparency = 0.000
+DaHoodButton.TextWrapped = true
+
+UICorner.Parent = DaHoodButton
+
+PhantomForcesButton.Name = "PhantomForcesButton"
+PhantomForcesButton.Parent = ScriptFrame
+PhantomForcesButton.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
+PhantomForcesButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PhantomForcesButton.BorderSizePixel = 0
+PhantomForcesButton.Position = UDim2.new(0.583333313, 0, 0.049999997, 0)
+PhantomForcesButton.Size = UDim2.new(0, 120, 0, 50)
+PhantomForcesButton.Font = Enum.Font.Kalam
+PhantomForcesButton.Text = "PhantomForces"
+PhantomForcesButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+PhantomForcesButton.TextScaled = true
+PhantomForcesButton.TextSize = 14.000
+PhantomForcesButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+PhantomForcesButton.TextStrokeTransparency = 0.000
+PhantomForcesButton.TextWrapped = true
+
+UICorner_2.Parent = PhantomForcesButton
+
+SpeedCityButton.Name = "SpeedCityButton"
+SpeedCityButton.Parent = ScriptFrame
+SpeedCityButton.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
+SpeedCityButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpeedCityButton.BorderSizePixel = 0
+SpeedCityButton.Position = UDim2.new(0.0833333135, 0, 0.350000024, 0)
+SpeedCityButton.Size = UDim2.new(0, 120, 0, 50)
+SpeedCityButton.Font = Enum.Font.Kalam
+SpeedCityButton.Text = "SpeedCity"
+SpeedCityButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpeedCityButton.TextScaled = true
+SpeedCityButton.TextSize = 14.000
+SpeedCityButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+SpeedCityButton.TextStrokeTransparency = 0.000
+SpeedCityButton.TextWrapped = true
+
+UICorner_3.Parent = SpeedCityButton
+
+ArsenalButton.Name = "ArsenalButton"
+ArsenalButton.Parent = ScriptFrame
+ArsenalButton.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
+ArsenalButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ArsenalButton.BorderSizePixel = 0
+ArsenalButton.Position = UDim2.new(0.583333313, 0, 0.350000024, 0)
+ArsenalButton.Size = UDim2.new(0, 120, 0, 50)
+ArsenalButton.Font = Enum.Font.Kalam
+ArsenalButton.Text = "Arsenal"
+ArsenalButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArsenalButton.TextScaled = true
+ArsenalButton.TextSize = 14.000
+ArsenalButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+ArsenalButton.TextStrokeTransparency = 0.000
+ArsenalButton.TextWrapped = true
+
+UICorner_4.Parent = ArsenalButton
+
+ComingSoon2Button.Name = "ComingSoon2Button"
+ComingSoon2Button.Parent = ScriptFrame
+ComingSoon2Button.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
+ComingSoon2Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ComingSoon2Button.BorderSizePixel = 0
+ComingSoon2Button.Position = UDim2.new(0.583333313, 0, 0.650000036, 0)
+ComingSoon2Button.Size = UDim2.new(0, 120, 0, 50)
+ComingSoon2Button.Font = Enum.Font.Kalam
+ComingSoon2Button.Text = "Coming soon..."
+ComingSoon2Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+ComingSoon2Button.TextScaled = true
+ComingSoon2Button.TextSize = 14.000
+ComingSoon2Button.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+ComingSoon2Button.TextStrokeTransparency = 0.000
+ComingSoon2Button.TextWrapped = true
+
+UICorner_5.Parent = ComingSoon2Button
+
+ComingSoon1Button.Name = "ComingSoon1Button"
+ComingSoon1Button.Parent = ScriptFrame
+ComingSoon1Button.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
+ComingSoon1Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ComingSoon1Button.BorderSizePixel = 0
+ComingSoon1Button.Position = UDim2.new(0.0833333135, 0, 0.650000036, 0)
+ComingSoon1Button.Size = UDim2.new(0, 120, 0, 50)
+ComingSoon1Button.Font = Enum.Font.Kalam
+ComingSoon1Button.Text = "Coming soon..."
+ComingSoon1Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+ComingSoon1Button.TextScaled = true
+ComingSoon1Button.TextSize = 14.000
+ComingSoon1Button.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+ComingSoon1Button.TextStrokeTransparency = 0.000
+ComingSoon1Button.TextWrapped = true
+
+UICorner_6.Parent = ComingSoon1Button
+
+UpdateLogFrame.Name = "UpdateLogFrame"
+UpdateLogFrame.Parent = MainFrame
+UpdateLogFrame.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
+UpdateLogFrame.BackgroundTransparency = 1.000
+UpdateLogFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+UpdateLogFrame.BorderSizePixel = 0
+UpdateLogFrame.Position = UDim2.new(0.162790701, 0, 0.230769232, 0)
+UpdateLogFrame.Size = UDim2.new(0, 360, 0, 200)
+UpdateLogFrame.Visible = false
+
+ScrollingFrame.Parent = UpdateLogFrame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Size = UDim2.new(0, 360, 0, 200)
+ScrollingFrame.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+
+TextLabel_4.Parent = ScrollingFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.0388888903, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 346, 0, 50)
+TextLabel_4.Font = Enum.Font.Kalam
+TextLabel_4.Text = "Added ScriptHub V2: Added (da hood, arsenal, phantomforces, speedcity) Removed (Adopt me, mm2)"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+InfoFrame.Name = "InfoFrame"
+InfoFrame.Parent = MainFrame
+InfoFrame.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
+InfoFrame.BackgroundTransparency = 1.000
+InfoFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+InfoFrame.BorderSizePixel = 0
+InfoFrame.Position = UDim2.new(0.162790701, 0, 0.230769232, 0)
+InfoFrame.Size = UDim2.new(0, 360, 0, 200)
+
+TextLabel_5.Parent = InfoFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.Size = UDim2.new(0, 360, 0, 60)
+TextLabel_5.Font = Enum.Font.Kalam
+TextLabel_5.Text = "If there is any issue with the script please contact me on discord BoyJR#7160"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 46.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = InfoFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.Position = UDim2.new(0, 0, 0.699999988, 0)
+TextLabel_6.Size = UDim2.new(0, 360, 0, 60)
+TextLabel_6.Font = Enum.Font.Kalam
+TextLabel_6.Text = "open/close key: K"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 46.000
+TextLabel_6.TextWrapped = true
+
+-- Scripts:
+
+local function LPPHW_fake_script() -- ScriptHubButton.LocalScript 
+	local script = Instance.new('LocalScript', ScriptHubButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.ScriptFrame.Visible = true
+		script.Parent.Parent.Parent.InfoFrame.Visible = false
+		script.Parent.Parent.Parent.UpdateLogFrame.Visible = false
+	end)
+end
+coroutine.wrap(LPPHW_fake_script)()
+local function TKCZQS_fake_script() -- UpdateLogButton.LocalScript 
+	local script = Instance.new('LocalScript', UpdateLogButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.ScriptFrame.Visible = false
+		script.Parent.Parent.Parent.InfoFrame.Visible = false
+		script.Parent.Parent.Parent.UpdateLogFrame.Visible = true
+	end)
+end
+coroutine.wrap(TKCZQS_fake_script)()
+local function QCQLNVJ_fake_script() -- InfoButton.LocalScript 
+	local script = Instance.new('LocalScript', InfoButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.ScriptFrame.Visible = false
+		script.Parent.Parent.Parent.InfoFrame.Visible = true
+		script.Parent.Parent.Parent.UpdateLogFrame.Visible = false
+	end)
+end
+coroutine.wrap(QCQLNVJ_fake_script)()
+local function RKRNBF_fake_script() -- DaHoodButton.LocalScript 
+	local script = Instance.new('LocalScript', DaHoodButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
+	end)
+end
+coroutine.wrap(RKRNBF_fake_script)()
+local function SYEBQH_fake_script() -- PhantomForcesButton.LocalScript 
+	local script = Instance.new('LocalScript', PhantomForcesButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Sulfate1/Odysey/main/Mainstring.lua"))()
+	end)
+end
+coroutine.wrap(SYEBQH_fake_script)()
+local function HAYII_fake_script() -- SpeedCityButton.LocalScript 
+	local script = Instance.new('LocalScript', SpeedCityButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/S71iE0QW"))()
+	end)
+end
+coroutine.wrap(HAYII_fake_script)()
+local function PWDXLU_fake_script() -- ArsenalButton.LocalScript 
+	local script = Instance.new('LocalScript', ArsenalButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DuhwahScripts/ArsenalBoltsHub/main/source"))()
+	end)
+end
+coroutine.wrap(PWDXLU_fake_script)()
+local function CZKEUN_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local MainFrame = script.Parent.Parent.MainFrame --in the .frame - you should need to change it what is your frame name.
+	local hotkey = Enum.KeyCode.K --Change your keybind you want.
+	
+	local UIS = game:GetService("UserInputService")
+	local open = false
+	
+	
+	
+	UIS.InputBegan:Connect(function(key, gp)
+		if key.KeyCode == hotkey then
+			if UIS:GetFocusedTextBox() == nil then
+				if open == false then
+					open = true 
+					MainFrame.Visible = open
+				elseif open == true then
+					open = false
+					MainFrame.Visible = open
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(CZKEUN_fake_script)()
